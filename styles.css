@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    color: #EEEEEE;
+}
+
+body {
+    background: rgb(154,3,30);
+    background: linear-gradient(90deg, rgba(154,3,30,1) 0%, rgba(231,236,239,1) 100%);
+}
+
+.navbar-brand {
+    font-weight: 900;
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #9a031e;
+}
+
+.container-fluid {
+    padding: 3% 5% 7%;
+}
+
+.navbar {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 4rem;
+    position: relative;
+    z-index: 1;
+}
+
+.nav-item {
+    margin-right: 15px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: black;
+}
+
+h2 {
+    color: black;
+    font-weight: 500;
+}
+
+.em {
+    color: #EEEEEE;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+}
+/* 
+.welcome {
+    position: relative;
+    z-index: 1;
+} */
+
+.img {
+    padding-left: 100px;
+    height: 300px;
+}
+
+.portrait {
+    position: absolute;
+    top: -155px;
+}
+
+li {
+    color: black;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+#technologies {
+    background-color: #787A91;
+    position: relative;
+    z-index: 1;
+}
+
+.icons {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.icon-div:hover {
+    background-color: #888ba2;
+}
+
+.icon-div {
+    padding: 1rem;
+}
+
+.icon {
+    margin: 1rem auto;
+    background: #0F044C;
+    background: linear-gradient(to right, #0F044C 0%, #0F044C 50%, #787A91 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#projects {
+    background: rgb(154,3,30);
+    background: linear-gradient(90deg, rgba(154,3,30,1) 0%, rgba(231,236,239,1) 100%);
+    height: 1000px;
+    position: relative;
+    /* z-index: 1; */
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.heading {
+    font-family: "Scepter", sans-serif;
+    font-weight: bold;
+    color: #EEEEEE;
+    margin: 1rem 0;
+}
+
+.project-row {
+    margin-top: 1rem;
+}
+
+p {
+    color: #787A91;
+    /* font-weight: bold; */
+}
+
+@media screen and (max-width: 1000px) {
+    .portrait {
+        display: none;
+    }
+}
