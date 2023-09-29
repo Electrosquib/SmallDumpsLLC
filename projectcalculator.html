@@ -6,16 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Spectral:ital,wght@0,400;0,500;0,700;0,800;1,500;1,800&family=Ubuntu&display=swap" rel="stylesheet">
-
-    <!-- Custom Stylesheets -->
-    <link rel="stylesheet" href="styles.css">
     
+    <!-- Custom Stylesheets -->
+    <link rel="stylesheet" href="styles.css">    
     <title>Small Dumps LLC, East Hawaii Household Hauling Service</title>
-    <meta name="description" content="Small Dumps LLC provides Hawaii island customers with hauling and delivery of cinder, mulch, gravel, sand, soil, top soil, cinder, and aggregate.">
+    <meta name="description" content="Small Dumps LLC provides Hawaii island customers with hauling and delivery of cinder, mulch, gravel, sand, soil, top soil, cinder, and aggregate. ">
+
     <a id="ham" onclick="mobile_nav()">☰</a>
     <div class="navbar">
         <a href="./index.html"><div class="nav-button">About</div></a>
@@ -28,25 +29,30 @@
 </head>
 
 <body>
-    <div class="content">
-    <section id="about">
-        <div id="logo" class="container">
-            <div><img src="images/logo.png" style="margin-top: 1rem;" width="25%"></div>
-        </div>
-        <div class="contain">
-            <div class="grid"><img id="truck" src="images/truck.jpeg" style="margin: 2rem; margin-top: 3rem;" width="100%"></div>
-            <div class="grid">
-                <p>
-Small Dumps LLC is an ‘ohana based business located in the Puna District on the Big Island of Hawai’i. Though we serve the entire Big Island.
-We specialize in small-scale residential landscaping services. At Small Dumps, we believe that size does matter, and that bigger is not always better.  Our Mini Dump truck can not only haul up to 6 tons of material (Mulch, Soil, Compost, Cinder, gravel etc), but it’s compact enough to maneuver in hard-to-reach areas. 
-We strive to deliver quality materials, as well as prompt service with Aloha. We accept many forms of payment. So, if you’ve been putting off a gardening or landscaping project, we’re here to help.                
-                </p>
-                <h2>We accept debit, credit, cash, and Venmo.</h2>
+    <!-- <h1>Project Calculator</h1> -->
+
+    <div class="calccontent">
+
+        <section id="calculator">
+            <h1>Project Calculator</h1>
+            <div class="inputs">
+                <input class="calcin" min="0" name="width" id="width" type="number" placeholder="Width (Ft.)">
+                <input class="calcin" name="length" id="length" type="number" placeholder="Length (Ft.)">
+                <input class="calcin" name="height" id="height" type="number" placeholder="Depth (In.)">
+                <button id="subbutt" type="submit">Calculate</button>
+                <h1 id="totalcalc">Total: <em><span id="total">0</span>Y<sup>3</sup></em></h1>
             </div>
-
+            
+        </section>
+        <section id="diagram">
+            <svg width="512" height="512" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path fill="none" stroke="#302622" stroke-linecap="butt" stroke-linejoin="butt" stroke-width=".1" d="M21 14.008V8.99a1.98 1.98 0 0 0-1-1.717l-4-2.008a2.016 2.016 0 0 0-2 0L4 10.273c-.619.355-1 1.01-1 1.718v5.018c0 .709.381 1.363 1 1.717l4 2.008a2.016 2.016 0 0 0 2 0l10-5.008c.619-.355 1-1.01 1-1.718zM9 21v-7.5m0 0L20.5 8m-17 3L9 13.5"/>
+            </svg>
+            <div id="l"><h3>L</h3></div>
+            <div id="w"><h3>W</h3></div>
+            <div id="h"><h3>H</h3></div>
+        </section>
         </div>
-
-    </section>
     <hr>
     <section id="contact">
         <h1>Contact</h1>
@@ -61,7 +67,6 @@ We strive to deliver quality materials, as well as prompt service with Aloha. We
             <h3><i class="fa-solid fa-phone"></i> (808) 855-3867</h3>
             <h3><i class="fa-solid fa-envelope"></i> Smalldump3@gmail.com</h3>
 
-        </div>
         
     </section>
 </div>
