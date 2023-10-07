@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Spectral:ital,wght@0,400;0,500;0,700;0,800;1,500;1,800&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Custom Stylesheets -->
     <link rel="stylesheet" href="styles.css">
@@ -19,24 +20,31 @@
 
     <a id="ham" onclick="mobile_nav()">☰</a>
     <div class="navbar">
-        <a href="./index.html"><div class="nav-button">About</div></a>
-        <a href="./faqs.html"><div class="nav-button">FAQs</div></a>
+        <a href="./index.html"><div class="nav-button">Home</div></a>
+        <a href="./projectcalculator.html"><div class="nav-button">Project Calculator</div></a>
         <a href="./products.html"><div class="nav-button">Products</div></a>
         <a href="./delivery_map.html"><div class="nav-button">Delivery Map</div></a>
-        <a href="./projectcalculator.html"><div class="nav-button">Project Calculator</div></a>
-        <a href="./reviews.html"><div class="nav-button">Reviews</div></a>
+        <a href="./faqs.html"><div class="nav-button">FAQs</div></a>
+        <!-- <a href="./testimonials.html"><div class="nav-button">Testimonials</div></a> -->
     </div>
 </head>
 
 <body>
     <div class="content">
-    <section id="faqs">
-
-    </section>
-    <hr>
+    <section id="map">
+        <h1 style="margin-bottom: 1rem;">Delivery Map</h1>
+        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1geQMMEO1kX76W6hHPZyjc7tp4GpbGRI&ehbc=2E312F&noprof=1" width="640" height="480"></iframe>    </section>
+        <div class="legend">
+            <div><span class="b125">&#9634;</span> <span class="legend-item">$125</span></div>
+            <div><span class="b150">&#9634;</span> <span class="legend-item">$150</span></div>
+            <div><span class="legend-item">Everywhere else please call for price</span></div>
+        </div>
+        <div style="width:80%; margin:auto; text-align: center;">
+            <p>The map shows the approximate cost for delivery in certain zones. The cost may change due to difficult and unpaved roads that need to be traversed. Feel free to call so we can schedule your next project.</p>
+        </div>
+        <hr>
     <section id="contact">
         <h1>Contact</h1>
-        <br>
         <div class="contact-info">
             <h2>Marc Farinas</h2>
             <h3>Owner/Operator</h3>
@@ -44,11 +52,10 @@
             <h4>Kea'au HI</h4>
             <h4>96749</h4>
             <br>
-            <h3><i class="fa-solid fa-phone"></i> (808) 855-3867</h3>
-            <h3><i class="fa-solid fa-envelope"></i> Smalldump3@gmail.com</h3>
+            <h3><i class="fa fa-phone"></i> (808) 855-3867</h3>
+            <h3><i class="fa fa-envelope"></i> Smalldump3@gmail.com</h3>
 
         </div>
-        
     </section>
 </div>
 <!-- JQuery -->
