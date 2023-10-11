@@ -9,6 +9,10 @@
     display: none;
 }
 
+i a {
+    color: #302622; 
+}
+
 body {
     background-image:
     linear-gradient(to bottom, rgba(255, 255, 255, .8), rgba(255, 255, 255, 1)), url(./images/dirt.png);
